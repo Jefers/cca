@@ -5,7 +5,7 @@ import { inspectAttr } from 'kimi-plugin-inspect-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/cc/docs/',     // trailing slash is important
+  base: '/cca/',     // trailing slash is important
   plugins: [inspectAttr(), react()],
   resolve: {
     alias: {
