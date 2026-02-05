@@ -69,7 +69,7 @@ const MeetCoach = () => {
       {/* Background Image with Parallax */}
       <div ref={imageRef} className="absolute inset-0">
         <img
-          src="/cca/coach-christian.jpg"
+          src="/coach-christian.jpg"
           alt="Christian - Your Coach"
           className="w-full h-full object-cover scale-110"
         />

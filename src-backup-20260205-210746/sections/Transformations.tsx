@@ -11,7 +11,7 @@ const transformations = [
     duration: '8 Months',
     result: 'Hyrox Competitor • -28kg',
     highlight: 'First Race: 1:35:22',
-    image: '/cca/transformation-2.jpg',
+    image: '/transformation-2.jpg',
     icon: Trophy,
   },
   {
@@ -19,7 +19,7 @@ const transformations = [
     duration: '12 Months',
     result: 'Strength Focus • +12kg Muscle',
     highlight: 'Deadlift: 200kg',
-    image: '/cca/coach-christian.jpg',
+    image: '/coach-christian.jpg',
     icon: Dumbbell,
   },
   {
@@ -27,7 +27,7 @@ const transformations = [
     duration: '6 Months',
     result: 'Body Recomp • -18% Body Fat',
     highlight: 'Complete Transformation',
-    image: '/cca/testimonial-hayley.jpg',
+    image: '/testimonial-hayley.jpg',
     icon: Flame,
   },
   {
@@ -35,7 +35,7 @@ const transformations = [
     duration: 'Ongoing',
     result: '500+ Men Transformed',
     highlight: 'Built for More Community',
-    image: '/cca/community-1.jpg',
+    image: '/community-1.jpg',
     icon: TrendingUp,
   },
 ];

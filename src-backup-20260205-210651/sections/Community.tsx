@@ -219,9 +219,9 @@ const Community = () => {
             {/* Photo Stack */}
             <div ref={cardsRef} className="relative h-[300px] hidden lg:block">
               {[
-                { src: '/cca/community-1.jpg', rotation: -8 },
-                { src: '/cca/transformation-1.jpg', rotation: 5 },
-                { src: '/cca/coach-christian.jpg', rotation: -3 },
+                { src: '/community-1.jpg', rotation: -8 },
+                { src: '/transformation-1.jpg', rotation: 5 },
+                { src: '/coach-christian.jpg', rotation: -3 },
               ].map((img, index) => (
                 <div
                   key={index}
