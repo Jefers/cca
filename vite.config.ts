@@ -3,9 +3,8 @@ import react from "@vitejs/plugin-react"
 import { defineConfig } from "vite"
 import { inspectAttr } from 'kimi-plugin-inspect-react'
 
-// https://vite.dev/config/
 export default defineConfig({
-  base: '/cca/',     // trailing slash is important
+  base: '/cca/',     // This is the only critical setting
   plugins: [inspectAttr(), react()],
   resolve: {
     alias: {

@@ -3,17 +3,16 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://jefers.github.io/cca", 
+  "homepage": "https://jefers.github.io/cca",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "deploy:clean": "rm -rf dist && npm run build && touch dist/.nojekyll && npm run deploy"
+    "deploy": "gh-pages -d dist"
   },
-    "dependencies": {
+  "dependencies": {
     "@gsap/react": "^2.1.2",
     "@hookform/resolvers": "^5.2.2",
     "@radix-ui/react-accordion": "^1.2.12",
